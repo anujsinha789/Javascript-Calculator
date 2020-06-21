@@ -1,0 +1,93 @@
+*{
+    padding: none;
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    background-color: rgb(27, 26, 26);
+    color: white;
+}
+.heading{
+    width: 100%;
+    margin: auto;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Piedra', cursive;
+}
+.container{
+    width: 50%;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 10px #ffffff85,0 0 40px #ffffff85,0 0 80px #ffffff85; 
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 7px;
+}
+#InputText{
+    width: 100%;
+    height: 15vh;
+    padding:0px;
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: right;
+}
+.operand{
+    width: 33%;
+    height: 12vh;
+    margin: 0.6px;
+    font-size: 20px;
+    font-family: cursive;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgba(25, 0, 255, 0.466);
+    color: rgb(255, 255, 255);
+    cursor : pointer;
+    transition: all 0.3s ease 0s;
+}
+.operand:hover{
+    background: rgb(0, 68, 255);
+    box-shadow: 0 0 10px rgb(0, 68, 255),0 0 40px rgb(0, 68, 255),0 0 80px rgb(0, 68, 255); 
+    transition-delay: 0.2s;
+    color: rgb(3, 3, 3);
+    border: 1px solid rgb(2, 2, 2);
+}
+.operator{
+    width: 24.5%;
+    height: 12vh;
+    margin: 0.5px;
+    font-size: 20px;
+    font-family: cursive;
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+.Equal-clear{
+    width: 50%;
+    height: 12vh;
+    margin: 0.5px;
+    font-size: 20px;
+    font-family: cursive;
+    border: 1px solid rgb(253, 252, 252);
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+.operator:hover{
+    background: #00FECA;
+    box-shadow: 0 0 10px #00FECA,0 0 40px #00FECA,0 0 80px #00FECA; 
+    transition-delay: 0.2s;
+    color: rgb(3, 3, 3);
+    border: 1px solid rgb(2, 2, 2);
+}
+.Equal-clear:hover{
+    background: white;
+    box-shadow: 0 0 10px white,0 0 40px white,0 0 80px white; 
+    transition-delay: 0.2s;
+    color: rgb(3, 3, 3);
+    border: 1px solid rgb(2, 2, 2);
+}
