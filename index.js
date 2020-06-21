@@ -14,33 +14,40 @@ var num2 = 0;
 var operation = 0;
 
 function setText(num){
+    document.getElementById('audio').play();
     ipText.value = num;
 }
 function clearText(){
+    document.getElementById('audio').play();
     ipText.value = 0;
 }
 function addition(){
+    document.getElementById('audio').play();
     num1 = parseInt(ipText.value);
     operation = 1;
     console.log(num1);
 }
 function subtraction(){
+    document.getElementById('audio').play();
     num1 = parseInt(ipText.value);
     operation = 2;
     console.log(num1);
 }
 function multiplication(){
+    document.getElementById('audio').play();
     num1 = parseInt(ipText.value);
     operation = 3;
     console.log(num1);
 }
 function division(){
+    document.getElementById('audio').play();
     num1 = parseInt(ipText.value);
     operation = 4;
     console.log(num1);
 }
 
 function result(){
+    document.getElementById('audio').play();
     num2 = parseInt(ipText.value);
     if(operation == 1){
         num2 += num1;
